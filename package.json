@@ -10,13 +10,16 @@
   },
   "dependencies": {
     "@expo/webpack-config": "^19.0.0",
-    "expo": "~50.0.0-preview.7",
-    "expo-notifications": "~0.27.2",
+    "@sentry/react-native": "^5.16.0",
+    "expo": "^50.0.0-preview.11",
     "expo-status-bar": "~1.11.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-native": "0.73.1",
+    "react-native": "0.73.2",
     "react-native-web": "~0.19.6"
+  },
+  "resolutions": {
+    "sucrase": "3.34.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
